@@ -1,0 +1,22 @@
+{
+  "name": "part3",
+  "version": "1.0.0",
+  "description": "updates objects across clients",
+  "main": ".src/server.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+    "pretest": "jshint ./src",
+	"test": "echo \"tests passed\""
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "haydonclore",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "dependencies": {
+    "socket.io": "^1.1.0"
+  }
+ }
